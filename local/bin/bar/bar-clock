@@ -1,0 +1,5 @@
+#!/bin/sh
+ICON="┇  "
+DATE=$(date '+%R')
+#printf "$ICON%s" "$(date '+%R')"
+printf "$ICON%s" "$DATE "

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+url="https://rate.sx/1xmr?qT"
+value=$(curl -s $url)
+fovalue=$(printf "%.2f" $value)
+
+ICON="┇ "
+
+echo $ICON $fovalue
